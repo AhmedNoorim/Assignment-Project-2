@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* common styles */
+
+:root {
+    font-family: Mulish;
+    --btn-color: #FF5400;
+}
+
+.btn {
+    border-radius: 8px;
+    background: var(--btn-color);
+    padding: 22px 40px;
+}
+
+img {
+    border-radius: 8px;
+}
