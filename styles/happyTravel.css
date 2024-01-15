@@ -87,6 +87,49 @@ header .banner>.container>.input {
     font-weight: 400;
 }
 
+header .banner>.container>#input-pad {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 header .banner>.container>#btn {
     color: #FFF;
+}
+
+/* media query */
+/* mobile: 600px */
+@media screen and (max-width:600px) {
+
+    .center {
+        margin: 0 auto;
+        width: 89.33vw;
+    }
+
+    /* header styles */
+    header .banner {
+        height: 485px;
+    }
+
+    header .banner>h1 {
+        padding-top: 30px;
+        font-size: 1.375rem;
+    }
+
+    header .banner>p {
+        padding-top: 8px;
+        width: 90%;
+        font-size: 0.875rem;
+        line-height: 21px;
+    }
+
+    header .banner>.container {
+        margin-top: 30px;
+        width: 85%;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    header .banner>.container>.input {
+        width: 100%;
+    }
 }
