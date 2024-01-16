@@ -1011,4 +1011,44 @@ footer>.reserved {
         gap: 15px;
         margin-top: 10px;
     }
+
+
+    /* footer styles */
+    footer {
+        margin-top: 24px;
+        height: 310px;
+    }
+
+    footer>.footer-logo {
+        gap: 7px;
+    }
+
+    footer>.footer-logo>img {
+        width: 40px;
+        height: 33.516px;
+    }
+
+    footer>.footer-logo>h1 {
+        font-size: 1.5rem;
+    }
+
+    footer>p {
+        width: 80%;
+        font-size: 0.875rem;
+    }
+
+    footer>.footer-links {
+        margin-top: 16px;
+        gap: 30px;
+        font-size: 25px;
+    }
+
+    footer>hr {
+        margin: 15px auto;
+        width: 90%;
+    }
+
+    footer>.reserved {
+        font-size: 0.875rem;
+    }
 }
