@@ -4,13 +4,18 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: Mulish;
 }
 
 /* common styles */
 
 :root {
-    font-family: Mulish;
     --btn-color: #FF5400;
+}
+
+a {
+    text-decoration: none;
+    color: var(--btn-color);
 }
 
 .btn {
@@ -305,6 +310,92 @@ main>.section-3>.container-bottom>.lonely {
     gap: 15px;
 }
 
+/* main- newsletter styles */
+main>.newsletter {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+main>.newsletter>.left {
+    width: 75%;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px;
+    text-align: start;
+}
+
+main>.newsletter>.left>h3 {
+    color: #131318;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+main>.newsletter>.left>p {
+    margin-top: 10px;
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+main>.newsletter>.left>.container {
+    margin-top: 16px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+main>.newsletter>.left>.container>hr {
+    border-color: rgba(19, 19, 24, 0.10);
+}
+
+main>.newsletter>.left>.container>input {
+    padding: 16px 20px;
+    border-radius: 8px;
+    border: 0;
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+main>.newsletter>.left>.container>button {
+    padding: 14px;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+main>.newsletter>.right {
+    width: 120%;
+    background-image: url("../images/Rectangle\ 8\ \(1\).png");
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    text-align: center;
+}
+
+main>.newsletter>.right>.tagbox {
+    position: relative;
+    top: -3rem;
+    right: 1%;
+    rotate: -30deg;
+}
+
 /* footer styles */
 footer {
     margin-top: 100px;
@@ -534,6 +625,34 @@ footer>.reserved {
 
     main>.section-3>.container-bottom>.lonely {
         width: 100%;
+    }
+
+
+    /* main- newsletter styles */
+    main>.newsletter {
+        margin-top: 16px;
+        flex-direction: column;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    main>.newsletter>.left {
+        width: 86.5%;
+        padding: 23px;
+        text-align: start;
+    }
+
+    main>.newsletter>.left>h3 {
+        font-size: 1.25rem;
+    }
+
+    main>.newsletter>.left>p {
+        font-size: 0.875rem;
+    }
+
+    main>.newsletter>.right {
+        width: 100%;
+        height: 300px;
     }
 
     /* footer styles */
