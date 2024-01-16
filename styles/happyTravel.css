@@ -243,14 +243,14 @@ main>.section-2>.container {
 
 main>.section-2>.container>.left-1 {
     width: 100%;
-    height: 300px;
+    height: 286px;
     background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../images/Rectangle\ 5.png");
 
 }
 
 main>.section-2>.container>.right-1 {
     width: 100%;
-    height: 300px;
+    height: 286px;
     background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../images/Rectangle\ 8.png");
 }
 
@@ -274,13 +274,13 @@ main>.section-2>.container>.right-2 {
 
 main>.section-2>.container>.left-3 {
     width: 80%;
-    height: 300px;
+    height: 286px;
     background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../images/Rectangle\ 11.png");
 }
 
 main>.section-2>.container>.right-3 {
     width: 120%;
-    height: 300px;
+    height: 286px;
     background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../images/Rectangle\ 10.png");
 }
 
@@ -428,6 +428,45 @@ main>.newsletter>.right>.tagbox {
     top: -3rem;
     right: 1%;
     rotate: -30deg;
+}
+
+/* main bonus styles */
+main>.bonus {
+    margin-top: 100px;
+    text-align: center;
+    color: #131318;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+main>.bonus>.container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+}
+
+main>.bonus>.container>.img-box {
+    width: 100%;
+}
+
+main>.bonus>.container>.img-box>.img1 {
+    width: 45%;
+}
+
+main>.bonus>.container>.img-box>.img2 {
+    width: 60%;
+}
+
+main>.bonus>.container>.img-box>.img3 {
+    width: 85%;
+}
+
+main>.bonus>.container>.img-box>.img4 {
+    width: 65%;
 }
 
 /* footer styles */
@@ -713,6 +752,18 @@ footer>.reserved {
         width: 100%;
         height: 300px;
     }
+
+    /* main bonus styles */
+    main>.bonus {
+        margin-top: 25px;
+        font-size: 1.5rem;
+    }
+
+    main>.bonus>.container {
+        gap: 15px;
+        margin-top: 10px;
+    }
+
 
     /* footer styles */
     footer {
